@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: ${{ false }} # at the moment this simply wastes our minutes, we will enable it when we have unit tests etc.
+    if: ${{ true }} # at the moment this simply wastes our minutes, we will enable it when we have unit tests etc.
 
     runs-on: ubuntu-latest
 
